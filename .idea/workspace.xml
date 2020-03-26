@@ -1,18 +1,967 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6184b659-2ba7-4070-b1ad-ea26c5b75724" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6184b659-2ba7-4070-b1ad-ea26c5b75724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yii2settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/aqua.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/lime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/colors/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.countdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/rev-settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style - Copy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/supersized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/fonts/ElegantIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/fonts/ElegantIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/fonts/ElegantIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/fonts/ElegantIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/HTML_CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/Licensing/gpl_license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/Licensing/mit_license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow-up-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2down_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2dwnn_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2left_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2left_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2right_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2right_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-2up_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-down_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-left_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-left_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-right_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-right_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot-up_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_carrot_up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_condense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_condense_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_expand_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_expand_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_expand_alt3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-right_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left-up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_left_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_move.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right-down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right-up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_right_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-down_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-left_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-left_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-right_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-right_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_triangle-up_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_up-down_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/arrow_up_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_adjust-horiz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_adjust-vert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_archive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_archive_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_bag_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_blocked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_book_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_box-checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_box-empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_box-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_briefcase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_briefcase_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_building.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_building_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_calculator_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_calulator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_camera_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cart_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_chat_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_check_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_check_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_circle-empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_circle-slelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_clipboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_clock_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_close_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_close_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud-download_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud-upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud-upload_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cloud_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_comment_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_compass_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cone_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_contacts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_contacts_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_creditcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_currency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_currency_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_cursor_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_datareport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_datareport_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_dislike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_dislike_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_document_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_documents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_documents_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_drawer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_drawer_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_drive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_drive_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_easel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_easel_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-circle_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-oct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-oct_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_error-triangle_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_film.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_floppy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_floppy_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_flowchart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_flowchart_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder-add_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder-open_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder_download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_folder_upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_genius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_gift_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_globe-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_globe_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_grid-2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_grid-3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_heart_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_hourglass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_house_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_id-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_id-2_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_id_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_info_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_key_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lifesaver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lightbulb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lightbulb_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_like_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_link_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lock-open_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_lock_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mail_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_map_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_menu-circle_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_menu-circle_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_menu-square_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_menu-square_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mic_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_minus-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_minus-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_minus_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_minus_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_mug_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_ol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_paperclip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pause_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pause_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pencil-edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pencil-edit_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pencil_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pens_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_percent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_percent_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_piechart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pin_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_plus-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_plus_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_plus_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_printer-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pushpin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_pushpin_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_puzzle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_puzzle_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_question_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_question_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_quotations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_quotations_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_quotations_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_ribbon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_ribbon_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_rook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_search2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_search_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_shield_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_star-half_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_star_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_stop_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_stop_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tag_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tags_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_toolbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_toolbox_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_trash_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_ul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_vol-mute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_vol-mute_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_volume-high.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_volume-high_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_volume-low.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_volume-low_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_wallet_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_zoom-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_zoom-in_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_zoom-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/icon_zoom-out_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_blogger_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_blogger_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_delicious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_delicious_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_delicious_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_deviantart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_deviantart_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_deviantart_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_dribbble_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_dribbble_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_facebook_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_facebook_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_flickr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_flickr_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_flickr_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googledrive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googledrive_alt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googledrive_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googleplus_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_googleplus_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_instagram_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_instagram_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_linkedin_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_linkedin_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_myspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_myspace_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_myspace_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_picassa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_picassa_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_picassa_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_pinterest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_pinterest_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_pinterest_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_rss_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_rss_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_share_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_share_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_skype_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_skype_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_spotify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_spotify_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_spotify_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_stumbleupon_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_stumbleupon_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_tumbleupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_tumblr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_tumblr_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_tumblr_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_twitter_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_twitter_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_vimeo_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_vimeo_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_wordpress_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_wordpress_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_youtube_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/PNG/social_youtube_square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow-up-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2down_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2dwnn_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2left_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2left_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2right_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2right_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-2up_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-down_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-left_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-left_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-right_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-right_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot-up_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_carrot_up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_condense.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_condense_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_expand_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_expand_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_expand_alt3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-right_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left-up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_left_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right-down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right-up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_right_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-down_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-left_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-left_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-right_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-right_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_triangle-up_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_up-down_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/arrow_up_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_adjust-horiz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_adjust-vert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_archive_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_bag_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_balance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_blocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_book_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_box-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_box-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_box-selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_briefcase_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_building.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_building_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_calculator_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_calulator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_camera_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cart_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_chat_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_check_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_check_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_circle-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_circle-slelected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_clock_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_close_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_close_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud-download_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud-upload_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cloud_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cogs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_comment_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_compass_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cone_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_contacts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_contacts_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_creditcard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_currency.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_currency_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_cursor_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_datareport.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_datareport_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_dislike_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_document_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_documents.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_documents_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_drawer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_drawer_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_drive_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_easel_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-circle_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-oct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-oct_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_error-triangle_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_film.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_floppy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_floppy_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_flowchart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_flowchart_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder-add_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder-open_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder_download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_folder_upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_genius.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_gift_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_globe-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_globe_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_grid-2x2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_grid-3x3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_heart_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_hourglass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_house_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_id-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_id-2_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_id_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_info_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_key_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lifesaver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lightbulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lightbulb_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_like_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_link_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lock-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lock-open_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_lock_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mail_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_map_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_menu-circle_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_menu-circle_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_menu-square_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_menu-square_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mic_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_minus-06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_minus-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_minus_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_minus_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_mug_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_ol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_paperclip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pause_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pause_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pencil-edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pencil-edit_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pencil_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pens.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pens_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_percent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_percent_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_piechart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pin_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_plus-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_plus_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_plus_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_printer-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pushpin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_pushpin_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_puzzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_puzzle_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_question_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_question_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_quotations.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_quotations_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_quotations_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_ribbon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_ribbon_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_rook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_search2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_search_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_shield_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_star-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_star_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_stop_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_stop_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tag_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tags.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tags_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_toolbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_toolbox_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_tools.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_trash_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_ul.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_vol-mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_vol-mute_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_volume-high.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_volume-high_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_volume-low.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_volume-low_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_wallet_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_zoom-in_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/icon_zoom-out_alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_blogger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_blogger_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_blogger_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_delicious.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_delicious_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_delicious_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_deviantart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_deviantart_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_deviantart_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_dribbble_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_dribbble_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_facebook_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_facebook_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_flickr_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_flickr_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googledrive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googledrive_alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googledrive_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googleplus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googleplus_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_googleplus_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_instagram_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_instagram_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_linkedin_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_linkedin_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_myspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_myspace_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_myspace_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_picassa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_picassa_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_picassa_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_pinterest_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_pinterest_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_rss_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_rss_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_share_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_share_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_skype_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_skype_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_spotify_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_spotify_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_stumbleupon_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_stumbleupon_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_tumbleupon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_tumblr_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_tumblr_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_twitter_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_twitter_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_vimeo_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_vimeo_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_wordpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_wordpress_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_wordpress_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_youtube_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/elegant_font/images/SVG/social_youtube_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/et-line.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/fonts/et-line.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/fonts/et-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/fonts/et-line.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/fonts/et-line.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line-font/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/bg-news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/bg-side-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/bg-side-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/bg-side-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/bg-side-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/background/sb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog-2/pic-blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/pic-blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/career/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/history/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/map-marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/download-android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/download-apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/ttd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/view/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/people/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-2/pf (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio-3/pf (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/pf (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/services/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ui/arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ui/arrow-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/countUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/countdown-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/designesia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/enquire.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/maps.api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/supersized.3.2.7.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/typed-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -102,9 +1051,17 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZX7AwjiZtaWZwFplqe3EWyLdyD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/user-roles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,24 +1072,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views/admin/user-roles" />
       <recent name="$PROJECT_DIR$/resources/views/admin/roles" />
       <recent name="$PROJECT_DIR$/resources/views/admin/langs" />
       <recent name="$PROJECT_DIR$/resources/views/admin" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -151,10 +1096,18 @@
       <option name="presentableId" value="Default" />
       <updated>1584973444324</updated>
       <workItem from="1584973446029" duration="4829000" />
+      <workItem from="1585169314811" duration="245000" />
+      <workItem from="1585231037090" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="376" key="NewPhpFileDialog" timestamp="1585236971295">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="544" y="376" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1585236971295" />
   </component>
 </project>
