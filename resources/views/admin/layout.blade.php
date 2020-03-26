@@ -37,7 +37,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Jobustan</div>
+            <div class="sidebar-brand-text mx-3">Dashboard</div>
         </a>
 
         <!-- Divider -->
@@ -88,6 +88,18 @@
             <a class="nav-link" href="{{route('user-role.index')}}">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>User Roles</span></a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('news.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>News</span></a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('comment.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Comments</span></a>
         </li>
 
 
@@ -368,3 +380,10 @@
 {{--datepicker--}}
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+<script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
+<script>
+    // $('textarea').ckeditor();
+    $('.textarea').ckeditor(); // if class is prefered.
+</script>
