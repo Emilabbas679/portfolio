@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6184b659-2ba7-4070-b1ad-ea26c5b75724" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/comments/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/comments/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +104,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-translatable" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-ckeditor" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZX7AwjiZtaWZwFplqe3EWyLdyD" />
@@ -115,9 +118,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/comments" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,7 +131,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
+
+      <recent name="$PROJECT_DIR$/resources/views/admin/comments" />
       <recent name="$PROJECT_DIR$/resources/views/admin/user-roles" />
       <recent name="$PROJECT_DIR$/resources/views/admin/roles" />
       <recent name="$PROJECT_DIR$/resources/views/admin/langs" />
@@ -151,19 +155,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584973444324</updated>
-      <workItem from="1584973446029" duration="4829000" />
-      <workItem from="1585169314811" duration="245000" />
-      <workItem from="1585231037090" duration="1551000" />
+
+      <workItem from="1584973446029" duration="5101000" />
+      <workItem from="1585048574363" duration="58000" />
+      <workItem from="1585048658536" duration="199000" />
+      <workItem from="1585126783768" duration="20000" />
+      <workItem from="1585126816161" duration="9000" />
+      <workItem from="1585135473251" duration="2000" />
+      <workItem from="1585230935637" duration="174000" />
+      <workItem from="1585236332265" duration="5296000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="544" y="376" key="NewPhpFileDialog" timestamp="1585236971295">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="544" y="376" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1585236971295" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
