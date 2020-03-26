@@ -25,6 +25,10 @@
                     </tr>
 
                     <tr>
+                        <th>Comment</th>
+                        <td>{{$comment->comment}}</td>
+                    </tr>
+                    <tr>
                         <th>Created</th>
                         <td>{{$comment->created_at}}</td>
                     </tr>
