@@ -17,6 +17,8 @@ Route::prefix('admin')->group(function() {
     Route::Resource('langs', 'Admin\LanguageController');
     Route::Resource('role', 'Admin\RoleController');
     Route::Resource('user-role', 'Admin\UserRoleController');
+    Route::Resource('news', 'Admin\NewsController');
+    Route::Resource('comment', 'Admin\CommentController');
 
 
 });
