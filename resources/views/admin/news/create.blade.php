@@ -75,8 +75,8 @@
                                 <div class="col-md-2"><label for="status">Status</label></div>
                                 <div class="col-md-10">
                                     <select name="status" id="status" class="form-control">
-                                        <option value="active" @if($news->status == 'active') selected @endif>Active</option>
-                                        <option value="inactive" @if($news->status == 'inactive') selected @endif>Inactive</option>
+                                        <option value="active"  selected>Active</option>
+                                        <option value="inactive" >Inactive</option>
                                     </select>
                                 </div>
                             </div>

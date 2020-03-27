@@ -19,6 +19,7 @@ Route::prefix('admin')->group(function() {
     Route::Resource('user-role', 'Admin\UserRoleController');
     Route::Resource('news', 'Admin\NewsController');
     Route::Resource('comment', 'Admin\CommentController');
+    Route::Resource('career', 'Admin\CareerController');
 
 
 });
@@ -30,3 +31,13 @@ Route::prefix('admin')->group(function() {
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/about-us', 'HomeController@about')->name('about');
+Route::get('/career', 'HomeController@career')->name('site.career');
+Route::get('/team', 'HomeController@team')->name('site.team');
+Route::get('/news', 'HomeController@news')->name('site.news');
+Route::get('/single-news/{slug}', 'HomeController@singleNews')->name('site.single-news');
+Route::get('/contact', 'HomeController@contact')->name('site.contact');
+
+
+
+Route::post('/add-comment-news/{news_id}', 'HomeController@addComment')->name('site.add_comment');
