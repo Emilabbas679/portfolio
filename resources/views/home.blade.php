@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Home')
 @section('content')
     <!-- content begin -->
     <div id="content" class="no-bottom no-top">
