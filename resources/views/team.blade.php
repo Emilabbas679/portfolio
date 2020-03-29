@@ -37,70 +37,23 @@
                     <div class="clearfix"></div>
 
                     <div class="sequence">
-
+                    @foreach($members as $m)
                         <div class="col-md-3 sq-item wow">
                             <div class="profile_pic text-center">
                                 <figure class="picframe mb30">
-                                    <a class="image-popup" href="images/team/1.jpg">
+                                    <a class="image-popup" href="/public/uploads/members/{{$m->img}}">
                                         <span class="overlay-v">
-                                            <span>Interested in all the digital things. Has earned several awards and has been a speaker at many world-class seminars.</span>
+                                            <span>{!! $m->content !!}</span>
                                         </span>
                                     </a>
-                                    <img src="images/team/1.jpg" class="img-responsive" alt="">
+                                    <img src="/public/uploads/members/{{$m->img}}" class="img-responsive" alt="">
                                 </figure>
 
-                                <h3>Oscar Helman</h3>
-                                <span class="subtitle">Founder & CEO</span>
+                                <h3>{{$m->name}}</h3>
+                                <span class="subtitle">{{$m->position}}</span>
                             </div>
                         </div>
-
-                        <div class="col-md-3 sq-item wow">
-                            <div class="profile_pic text-center">
-                                <figure class="picframe mb30">
-                                    <a class="image-popup" href="images/team/2.jpg">
-                                        <span class="overlay-v">
-                                            <span>Interested in all the digital things. Has earned several awards and has been a speaker at many world-class seminars.</span>
-                                        </span>
-                                    </a>
-                                    <img src="images/team/2.jpg" class="img-responsive" alt="">
-                                </figure>
-
-                                <h3>Isaac Nicholas</h3>
-                                <span class="subtitle">Founder & CEO</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 sq-item wow">
-                            <div class="profile_pic text-center">
-                                <figure class="picframe mb30">
-                                    <a class="image-popup" href="images/team/3.jpg">
-                                        <span class="overlay-v">
-                                            <span>Interested in all the digital things. Has earned several awards and has been a speaker at many world-class seminars.</span>
-                                        </span>
-                                    </a>
-                                    <img src="images/team/3.jpg" class="img-responsive" alt="">
-                                </figure>
-
-                                <h3>Rose Shipp</h3>
-                                <span class="subtitle">Founder & CEO</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 sq-item wow">
-                            <div class="profile_pic text-center">
-                                <figure class="picframe mb30">
-                                    <a class="image-popup" href="images/team/4.jpg">
-                                        <span class="overlay-v">
-                                            <span>Interested in all the digital things. Has earned several awards and has been a speaker at many world-class seminars.</span>
-                                        </span>
-                                    </a>
-                                    <img src="images/team/4.jpg" class="img-responsive" alt="">
-                                </figure>
-
-                                <h3>John Arnold</h3>
-                                <span class="subtitle">Founder & CEO</span>
-                            </div>
-                        </div>
+                    @endforeach
 
                     </div>
                 </div>

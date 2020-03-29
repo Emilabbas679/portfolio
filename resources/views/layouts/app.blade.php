@@ -115,12 +115,29 @@
                             <li><a href="{{route('site.contact')}}">Contact <span></span></a></li>
 
 
+                            @if(\Illuminate\Support\Facades\Auth::check())
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+
+                                        {{ __('Logout') }} <span></span>
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+
+                                </li>
+
+
+                            @else
                             <li><a href="{{route('login')}}">Login<span></span></a>
                                 <ul>
                                     <li><a href="{{route('login')}}">Login</a></li>
                                     <li><a href="{{route('register')}}">Register</a></li>
                                 </ul>
                             </li>
+                            @endif
                         </ul>
                     </nav>
                     <!-- mainmenu close -->

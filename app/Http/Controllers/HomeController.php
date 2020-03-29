@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Career;
 use App\Models\Comment;
 use App\Models\News;
+use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -46,7 +47,8 @@ class HomeController extends Controller
 
     public function team()
     {
-        return view('team');
+        $members = Team::where('status', 'active')->orderby('id', 'desc')->get();
+        return view('team', compact('members'));
     }
 
 
