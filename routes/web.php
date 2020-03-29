@@ -20,6 +20,8 @@ Route::prefix('admin')->group(function() {
     Route::Resource('news', 'Admin\NewsController');
     Route::Resource('comment', 'Admin\CommentController');
     Route::Resource('career', 'Admin\CareerController');
+    Route::Resource('team', 'Admin\TeamController');
+    Route::Resource('contact', 'Admin\ContactController');
 
 
 });
@@ -41,3 +43,4 @@ Route::get('/contact', 'HomeController@contact')->name('site.contact');
 
 
 Route::post('/add-comment-news/{news_id}', 'HomeController@addComment')->name('site.add_comment');
+Route::post('/send-message', 'Admin\ContactController@store')->name('send-message');

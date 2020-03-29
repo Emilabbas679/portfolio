@@ -109,6 +109,19 @@
         </li>
 
 
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('team.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Team</span></a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('contact.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Contact</span></a>
+        </li>
+
+
 
 
         <!-- Divider -->
