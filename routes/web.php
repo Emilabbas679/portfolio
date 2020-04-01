@@ -22,6 +22,8 @@ Route::prefix('admin')->group(function() {
     Route::Resource('career', 'Admin\CareerController');
     Route::Resource('team', 'Admin\TeamController');
     Route::Resource('contact', 'Admin\ContactController');
+    Route::Resource('process', 'Admin\ProcessController');
+    Route::Resource('service', 'Admin\ServiceController');
 
 
 });

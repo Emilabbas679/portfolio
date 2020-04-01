@@ -30,6 +30,7 @@
     <!-- color scheme -->
     <link rel="stylesheet" id="colors" href="{{ asset('css/colors/blue.css') }}" type="text/css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body id="homepage">

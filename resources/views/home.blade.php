@@ -46,6 +46,7 @@
         <section id="section-about">
             <div class="container">
                 <div class="row">
+
                     <div class="col-md-4">
                         <blockquote class="s1">For every complex problem, there is an answer that is clear, simple, and wrong.
                             <span class="by id-color">Words by H. L. Mencken</span>
@@ -86,65 +87,19 @@
                             <h2><span class="uptitle">Services</span>What We Do</h2>
                         </div>
 
-                        <!-- feature box begin -->
-                        <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow sq-item wow">
-                            <i class="icon_lightbulb_alt id-color"></i>
-                            <div class="text">
-                                <h3>Design</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                        </div>
-                        <!-- feature box close -->
 
                         <!-- feature box begin -->
+                        @foreach($services as $s)
                         <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow">
-                            <i class="icon_datareport id-color"></i>
+                            <i class="{{$s->icon}}"></i>
                             <div class="text">
-                                <h3>Marketing</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                <h3>{{$s->title}}</h3>
+                                {!! $s->text !!}
                             </div>
                         </div>
+                        @endforeach()
                         <!-- feature box close -->
 
-                        <!-- feature box begin -->
-                        <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow">
-                            <i class="icon_camera_alt id-color"></i>
-                            <div class="text">
-                                <h3>Photography</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                        </div>
-                        <!-- feature box close -->
-
-                        <!-- feature box begin -->
-                        <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow">
-                            <i class="icon_tag_alt id-color"></i>
-                            <div class="text">
-                                <h3>Branding</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                        </div>
-                        <!-- feature box close -->
-
-                        <!-- feature box begin -->
-                        <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow">
-                            <i class="icon_pencil-edit id-color"></i>
-                            <div class="text">
-                                <h3>Development</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                        </div>
-                        <!-- feature box close -->
-
-                        <!-- feature box begin -->
-                        <div class="col-md-4 col-sm-6 feature-box left mb30 sq-item wow">
-                            <i class="icon_search id-color"></i>
-                            <div class="text">
-                                <h3>SEO</h3>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                        </div>
-                        <!-- feature box close -->
                     </div>
                 </div>
             </div>
@@ -292,45 +247,29 @@
                         <div class="col-md-12">
                             <div class="de_tab tab_steps style-2">
                                 <ul class="de_nav">
-                                    <li class="active wow fadeInRight" data-wow-delay="0s"><span><i class="icon_lightbulb_alt"></i>Idea</span>
+
+                                    @foreach($processes as $p)
+                                    <li class="@if($loop->iteration == 1)  active @endif wow fadeInRight" >
+{{--                                        <span><i class="icon_lightbulb_alt"></i>Idea</span>--}}
+                                        <span><i class="{{$p->icon}}"></i>{{$p->title}}</span>
+
                                         <div class="arrow"></div>
                                     </li>
-                                    <li class="wow fadeInRight" data-wow-delay=".3s"><span><i class="icon_easel"></i>Design</span>
-                                        <div class="arrow"></div>
-                                    </li>
-                                    <li class="wow fadeInRight" data-wow-delay=".6s"><span><i class="icon_pencil-edit"></i>Develop</span>
-                                        <div class="arrow"></div>
-                                    </li>
-                                    <li class="wow fadeInRight" data-wow-delay=".9s"><span><i class="icon_datareport"></i>Result</span>
-                                        <div class="arrow"></div>
-                                    </li>
+                                    @endforeach()
+
+
+
                                 </ul>
 
                                 <div class="de_tab_content">
 
-                                    <div id="tab1">
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.
+                                    @foreach($processes as $p)
+                                    <div id="tab{{$loop->iteration}}">
+                                        {!! $p->text !!}
                                     </div>
+                                        @endforeach
 
-                                    <div id="tab2">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. Sed ut perspiciatis unde omnis
-                                        iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                                        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                    </div>
 
-                                    <div id="tab3">
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.
-                                    </div>
-
-                                    <div id="tab4">
-                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-                                        quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                    </div>
 
                                 </div>
 
