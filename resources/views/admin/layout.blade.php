@@ -121,6 +121,17 @@
                 <span>Contact</span></a>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('process.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Process</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('service.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Service</span></a>
+        </li>
+
 
 
 
