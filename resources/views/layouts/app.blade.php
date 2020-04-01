@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="{{ asset('css/bg.css') }}" type="text/css">
 
     <!-- color scheme -->
-    <link rel="stylesheet" id="colors" href="{{ asset('css/colors/orange.css') }}" type="text/css">
+    <link rel="stylesheet" id="colors" href="{{ asset('css/colors/blue.css') }}" type="text/css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
