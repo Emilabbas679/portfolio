@@ -132,6 +132,12 @@
                 <span>Service</span></a>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('partner.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Partners</span></a>
+        </li>
+
 
 
 

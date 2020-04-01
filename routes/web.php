@@ -24,6 +24,7 @@ Route::prefix('admin')->group(function() {
     Route::Resource('contact', 'Admin\ContactController');
     Route::Resource('process', 'Admin\ProcessController');
     Route::Resource('service', 'Admin\ServiceController');
+    Route::Resource('partner', 'Admin\PartnerController');
 
 
 });
