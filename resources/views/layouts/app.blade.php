@@ -45,7 +45,7 @@
                 <div class="col-md-12">
                     <!-- logo begin -->
                     <div id="logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="logo" src="/public/images/logo-light.png" alt="">
                             <img class="logo-2" src="/public/images/logo-dark.png" alt="">
                         </a>
@@ -59,7 +59,7 @@
                     <!-- mainmenu begin -->
                     <nav>
                         <ul id="mainmenu">
-                            <li><a href="index.html">Home<span></span></a>
+                            <li><a href="/">Home<span></span></a>
                                 <ul class="mega">
                                     <li>
                                         <div class="container">
@@ -85,7 +85,7 @@
                                                     <div class="col-md-3">
                                                         <ul>
                                                             <li class="title">Homepage Default</li>
-                                                            <li><a href="index.html">Homepage 1</a></li>
+                                                            <li><a href="/">Homepage 1</a></li>
                                                             <li><a href="index-2.html">Homepage 2</a></li>
                                                             <li><a href="index-3.html">Homepage 3</a></li>
                                                             <li><a href="index-4.html">Homepage 4</a></li>
