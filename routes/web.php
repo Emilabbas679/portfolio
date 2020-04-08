@@ -11,7 +11,7 @@
 |
 */
 
-Route::prefix('admin')->group(function() {
+Route::middleware(['auth','role:admin|super-admin'])->prefix('admin')->group(function() {
     Route::get('/','Admin\AdminController@index')->name('admin.home');
     Route::Resource('users', 'Admin\UsersController');
     Route::Resource('langs', 'Admin\LanguageController');
