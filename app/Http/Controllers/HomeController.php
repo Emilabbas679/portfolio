@@ -9,7 +9,9 @@ use App\Models\Process;
 use App\Models\Service;
 use App\Models\Team;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
@@ -21,6 +23,14 @@ class HomeController extends Controller
     public function __construct()
     {
 //        $this->middleware('auth');
+    }
+
+
+    public function setLocale(Request $request)
+    {
+        Session::put(['locale' => $request->get('locale')]);
+        App::setLocale(Session::get('locale'));
+        return redirect()->back();
     }
 
     /**

@@ -139,6 +139,19 @@
         </li>
 
 
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('history.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>History</span></a>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('about.index')}}">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>About</span></a>
+        </li>
+
 
 
         <!-- Divider -->
