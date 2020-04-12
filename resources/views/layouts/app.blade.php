@@ -59,61 +59,12 @@
                     <!-- mainmenu begin -->
                     <nav>
                         <ul id="mainmenu">
-                            <li><a href="/">Home<span></span></a>
-                                <ul class="mega">
-                                    <li>
-                                        <div class="container">
-                                            <div class="menu-content">
-                                                <div class="row">
-                                                    <div class="col-md-3 hidden-sm">
-                                                        <a href="index-dark.html" class="hover no-padding">
-                                                            <img src="/public/images/misc/preview.jpg" class="img-responsive img-rounded" alt="">
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col-md-3">
-                                                        <ul>
-                                                            <li class="title">Homepage New</li>
-                                                            <li><a href="index-dark.html">Homepage Dark</a></li>
-                                                            <li><a href="index-startup.html">Homepage Startup</a></li>
-                                                            <li><a href="index-boxed-1.html">Homepage Boxed Style</a></li>
-                                                            <li><a href="index-personal.html">Homepage Personal</a></li>
-
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="col-md-3">
-                                                        <ul>
-                                                            <li class="title">Homepage Default</li>
-                                                            <li><a href="/">Homepage 1</a></li>
-                                                            <li><a href="index-2.html">Homepage 2</a></li>
-                                                            <li><a href="index-3.html">Homepage 3</a></li>
-                                                            <li><a href="index-4.html">Homepage 4</a></li>
-                                                            <li><a href="index-5.html">Homepage 5</a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="col-md-3">
-                                                        <ul>
-                                                            <li class="title">More Homepage</li>
-                                                            <li><a href="coming-soon-1.html">Coming Soon 1</a></li>
-                                                            <li><a href="coming-soon-2.html">Coming Soon 2</a></li>
-                                                            <li><a href="maintenance.html">Maintenance</a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="{{route('about')}}">About Us <span></span></a></li>
-                            <li><a href="{{route('site.career')}}">Career <span></span></a></li>
-                            <li><a href="{{route('site.team')}}">Team <span></span></a></li>
-                            <li><a href="{{route('site.news')}}">News <span></span></a></li>
-                            <li><a href="{{route('site.contact')}}">Contact <span></span></a></li>
+                            <li><a href="/" class="text-capitalize">{{__('site.home')}}<span></span></a></li>
+                            <li><a href="{{route('about')}}" class="text-capitalize">{{__('site.about')}}<span></span></a></li>
+                            <li><a href="{{route('site.career')}}" class="text-capitalize">{{__('site.career')}} <span></span></a></li>
+                            <li><a href="{{route('site.team')}}" class="text-capitalize">{{__('site.team')}} <span></span></a></li>
+                            <li><a href="{{route('site.news')}}" class="text-capitalize">{{__('site.news')}} <span></span></a></li>
+                            <li><a href="{{route('site.contact')}}" class="text-capitalize">{{__('site.contact')}} <span></span></a></li>
 
 
                             @if(\Illuminate\Support\Facades\Auth::check())
@@ -122,7 +73,7 @@
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
 
-                                        {{ __('Logout') }} <span></span>
+                                        {{ __('site.logout') }} <span></span>
                                     </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
@@ -132,13 +83,27 @@
 
 
                             @else
-                            <li><a href="{{route('login')}}">Login<span></span></a>
+                            <li><a href="{{route('login')}}">{{Config::get('app.locale')}}<span></span></a>
                                 <ul>
-                                    <li><a href="{{route('login')}}">Login</a></li>
-                                    <li><a href="{{route('register')}}">Register</a></li>
+                                    <li><a href="{{route('login')}}">{{__('site.login')}}</a></li>
+                                    <li><a href="{{route('register')}}">{{__('site.register')}}</a></li>
                                 </ul>
                             </li>
                             @endif
+
+
+                            <li><a href="#" class="text-uppercase">{{Config::get('app.locale')}}<span></span></a>
+                                <ul>
+                                    @foreach($langs as $lang)
+                                        @if(Config::get('app.locale') !== $lang->code)
+{{--                                            <a class="dropdown-item myDrop__item locale" data-id="{{$lang->code}}" href="#">{{$lang->name}}</a>--}}
+                                            <li><a href="#" class="locale text-uppercase" data-id="{{$lang->code}}">{{$lang->code}}</a></li>
+                                        @endif
+                                    @endforeach
+
+
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                     <!-- mainmenu close -->
@@ -268,6 +233,32 @@
         }
     });
 </script>
+
+
+<script>
+    $('a.locale').click(function () {
+        var locale = $(this).attr("data-id");
+        console.log(locale)
+        $.ajax({
+            type:"POST",
+            data: { 'locale' : locale,
+                "_token": "{{ csrf_token() }}",
+            },
+            url:'/home/setlocale',
+            success:function(response){
+                location.reload();
+            }
+        });
+    })
+    $(document).ready(function() {
+        $('button.owl-next').html("{{__('site.next')}}");
+        $('button.owl-prev').html("{{__('site.previous')}}");
+
+    })
+
+</script>
+
+
 @stack('js')
 
 </body>

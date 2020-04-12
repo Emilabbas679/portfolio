@@ -11,6 +11,12 @@
 |
 */
 
+View::composer('layouts.app', function ($view) {
+    $view->with('langs',  \App\Models\Language::all());
+});
+
+
+
 Route::middleware(['auth','role:admin|super-admin'])->prefix('admin')->group(function() {
     Route::get('/','Admin\AdminController@index')->name('admin.home');
     Route::Resource('users', 'Admin\UsersController');
@@ -25,10 +31,10 @@ Route::middleware(['auth','role:admin|super-admin'])->prefix('admin')->group(fun
     Route::Resource('process', 'Admin\ProcessController');
     Route::Resource('service', 'Admin\ServiceController');
     Route::Resource('partner', 'Admin\PartnerController');
-
+    Route::Resource('history', 'Admin\HistoryController');
+    Route::Resource('about', 'Admin\AboutController');
 
 });
-
 
 
 
@@ -47,3 +53,4 @@ Route::get('/contact', 'HomeController@contact')->name('site.contact');
 
 Route::post('/add-comment-news/{news_id}', 'HomeController@addComment')->name('site.add_comment');
 Route::post('/send-message', 'Admin\ContactController@store')->name('send-message');
+Route::post('/home/setlocale', 'HomeController@setLocale')->name('change_lang');
