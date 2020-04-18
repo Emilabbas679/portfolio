@@ -30,7 +30,7 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="z-index: 100">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/admin">
@@ -52,104 +52,52 @@
             </a>
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Login Screens:</h6>
-                    <a class="collapse-item" href="login.html">Login</a>
-                    <a class="collapse-item" href="register.html">Register</a>
-                    <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                    <div class="collapse-divider"></div>
-                    <h6 class="collapse-header">Other Pages:</h6>
-                    <a class="collapse-item" href="404.html">404 Page</a>
-                    <a class="collapse-item" href="blank.html">Blank Page</a>
+                    <a class="collapse-item" href="{{route('news.index')}}">News</a>
+                    <a class="collapse-item" href="{{route('career.index')}}">Careers</a>
+                    <a class="collapse-item" href="{{route('team.index')}}">Team</a>
+                    <a class="collapse-item" href="{{route('process.index')}}">Process </a>
+                    <a class="collapse-item" href="{{route('service.index')}}">Services </a>
+                    <a class="collapse-item" href="{{route('history.index')}}">History </a>
+                    <a class="collapse-item" href="{{route('partner.index')}}">Partners </a>
+                    <a class="collapse-item" href="{{route('about.index')}}">About </a>
                 </div>
             </div>
         </li>
 
-        <!-- Nav Item - Charts -->
+
         <li class="nav-item">
-            <a class="nav-link" href="{{route('users.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Users</span></a>
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages2" aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Users</span>
+            </a>
+            <div id="collapsePages2" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="{{route('users.index')}}">All users</a>
+                    <a class="collapse-item" href="{{route('role.index')}}">Roles</a>
+                    <a class="collapse-item" href="{{route('user-role.index')}}">User Roles</a>
+                </div>
+            </div>
         </li>
+
+
 
         <li class="nav-item">
             <a class="nav-link" href="{{route('langs.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
+                <i class="fas fa-globe"></i>
                 <span>Languages</span></a>
         </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('role.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Roles</span></a>
-        </li>
 
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('user-role.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>User Roles</span></a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('news.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>News</span></a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('comment.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Comments</span></a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('career.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Careers</span></a>
-        </li>
-
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('team.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Team</span></a>
-        </li>
 
         <li class="nav-item">
             <a class="nav-link" href="{{route('contact.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Contact</span></a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('process.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Process</span></a>
+                <i class="fas fa-envelope"></i>
+                <span>Messages</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{route('service.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Service</span></a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('partner.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Partners</span></a>
-        </li>
-
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('history.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>History</span></a>
-        </li>
-
-
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('about.index')}}">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>About</span></a>
+            <a class="nav-link" href="{{route('comment.index')}}">
+                <i class="fas fa-comments"></i>
+                <span>Comments</span></a>
         </li>
 
 
@@ -214,53 +162,30 @@
                         </div>
                     </li>
 
-                    <!-- Nav Item - Alerts -->
                     <li class="nav-item dropdown no-arrow mx-1">
-                        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-bell fa-fw"></i>
-                            <!-- Counter - Alerts -->
-                            <span class="badge badge-danger badge-counter">3+</span>
+                        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="text-uppercase">{{Config::get('app.locale')}}</span>
                         </a>
-                        <!-- Dropdown - Alerts -->
-                        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+
+                        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown" style="max-height: 400px; overflow-y: scroll">
                             <h6 class="dropdown-header">
-                                Alerts Center
+                                Languages
                             </h6>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="mr-3">
-                                    <div class="icon-circle bg-primary">
-                                        <i class="fas fa-file-alt text-white"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">December 12, 2019</div>
-                                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="mr-3">
-                                    <div class="icon-circle bg-success">
-                                        <i class="fas fa-donate text-white"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">December 7, 2019</div>
-                                    $290.29 has been deposited into your account!
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="mr-3">
-                                    <div class="icon-circle bg-warning">
-                                        <i class="fas fa-exclamation-triangle text-white"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">December 2, 2019</div>
-                                    Spending Alert: We've noticed unusually high spending for your account.
-                                </div>
-                            </a>
-                            <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            @foreach($langs as $lang)
+                                @if(Config::get('app.locale') !== $lang->code)
+
+                                    <a class="dropdown-item d-flex align-items-center locale" data-id="{{$lang->code}}" href="#">
+                                        <div class="font-weight-bold">
+                                            <div class="text-truncate">
+                                                {{$lang->language}}
+                                            </div>
+                                        </div>
+                                    </a>
+                                @endif
+                            @endforeach
                         </div>
+
+
                     </li>
 
                     <!-- Nav Item - Messages -->
@@ -268,54 +193,26 @@
                         <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-envelope fa-fw"></i>
                             <!-- Counter - Messages -->
-                            <span class="badge badge-danger badge-counter">7</span>
+                            <span class="badge badge-danger badge-counter" id="count_msg">{{count($messages)}}</span>
                         </a>
                         <!-- Dropdown - Messages -->
-                        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown" style="max-height: 400px; overflow-y: scroll">
                             <h6 class="dropdown-header">
                                 Message Center
                             </h6>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
-                                    <div class="status-indicator bg-success"></div>
-                                </div>
+
+                            @foreach($messages as $m)
+                            <a class="dropdown-item d-flex align-items-center" href="{{route('contact.show', $m->id)}}">
                                 <div class="font-weight-bold">
-                                    <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
-                                    <div class="small text-gray-500">Emily Fowler · 58m</div>
+                                    <div class="text-truncate">
+                                        {{$m->message}}
+                                    </div>
+                                    <div class="small text-gray-500">{{$m->name}} </div>
                                 </div>
                             </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
-                                    <div class="status-indicator"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
-                                    <div class="small text-gray-500">Jae Chun · 1d</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
-                                    <div class="status-indicator bg-warning"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
-                                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                                    <div class="status-indicator bg-success"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                            @endforeach
+
+                            <a class="dropdown-item text-center small text-gray-500 read-messages" href="{{route('contact.index')}}">Read More Messages</a>
                         </div>
                     </li>
 
@@ -368,11 +265,12 @@
 
             <!-- End of Main Content -->
 
+        </div>
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-white" >
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2019</span>
+                        <span class="pl-5 ml-5">Copyright &copy; Your Website 2019</span>
                     </div>
                 </div>
             </footer>
@@ -443,4 +341,41 @@
 <script>
     // $('textarea').ckeditor();
     $('.textarea').ckeditor(); // if class is prefered.
+</script>
+
+
+<script>
+    $('a.read-messages').click(function () {
+        $.ajax({
+            type:"POST",
+            url:'/admin/readMessages',
+            data: {
+                "_token": "{{ csrf_token() }}",
+            },
+            success:function(response){
+                // location.reload();
+                $('#count_msg').html(0);
+            }
+        });
+    });
+
+</script>
+
+
+<script>
+    $('a.locale').click(function () {
+        var locale = $(this).attr("data-id");
+        console.log(locale);
+        $.ajax({
+            type:"POST",
+            data: { 'locale' : locale,
+                "_token": "{{ csrf_token() }}",
+            },
+            url:'/home/setlocale',
+            success:function(response){
+                location.reload();
+            }
+        });
+    })
+
 </script>
