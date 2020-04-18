@@ -12,7 +12,19 @@
 */
 
 View::composer('layouts.app', function ($view) {
-    $view->with('langs',  \App\Models\Language::all());
+    $langs = \App\Models\Language::all();
+    $view->with([
+        'langs' => $langs,
+    ]);
+});
+
+View::composer('admin.layout', function ($view) {
+    $langs = \App\Models\Language::all();
+    $messages = \App\Models\Contact::where("is_read", 0)->get();
+    $view->with([
+        'langs' => $langs,
+        'messages' => $messages
+    ]);
 });
 
 
@@ -33,6 +45,7 @@ Route::middleware(['auth','role:admin|super-admin'])->prefix('admin')->group(fun
     Route::Resource('partner', 'Admin\PartnerController');
     Route::Resource('history', 'Admin\HistoryController');
     Route::Resource('about', 'Admin\AboutController');
+    Route::post('/readMessages', 'Admin\AdminController@readMessages');
 
 });
 
