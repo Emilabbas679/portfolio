@@ -7,6 +7,7 @@
     <section id="subheader">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-12">
                     <h1>Contact Us</h1>
                     <ul class="crumb">
@@ -22,7 +23,8 @@
 
     <!-- content begin -->
     <div id="content" class="no-top no-bottom">
-        <!-- section service begin -->
+
+    <!-- section service begin -->
         <section id="section-contact" class="side-bg left no-top np-bottom" data-bgcolor="#f6f6f6">
             <div class="image-container col-md-7 pull-left" data-delay="0">
                 <div class="background-image"></div>
@@ -66,7 +68,10 @@
                     </div>
 
                     <div class="col-md-5">
+                        @include('admin.flash-message')
+
                         <div class="inner-padding">
+
                             <h3>Message Us</h3>
                             <form name="contactFormCustom" onsubmit="return validateForm()"  class="form-underline" method="post" action='{{route('send-message')}}'>
                                 @csrf

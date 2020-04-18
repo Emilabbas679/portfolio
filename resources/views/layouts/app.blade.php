@@ -83,7 +83,7 @@
 
 
                             @else
-                            <li><a href="{{route('login')}}">{{Config::get('app.locale')}}<span></span></a>
+                            <li><a href="{{route('login')}}">{{__('site.login')}}<span></span></a>
                                 <ul>
                                     <li><a href="{{route('login')}}">{{__('site.login')}}</a></li>
                                     <li><a href="{{route('register')}}">{{__('site.register')}}</a></li>
@@ -114,7 +114,9 @@
             </div>
         </div>
     </header>
-    <!-- header close -->
+
+
+<!-- header close -->
 
 @yield('content')
 
@@ -138,11 +140,10 @@
                                 <h5>Company</h5>
                                 <div class="tiny-border"><span></span></div>
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Customers</a></li>
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="{{route('about')}}">{{__('site.about')}}</a></li>
+                                    <li><a href="{{route('site.team')}}">{{__('site.team')}}</a></li>
+                                    <li><a href="{{route('site.career')}}">{{__('site.career')}}</a></li>
+                                    <li><a href="{{route('site.news')}}">News</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -166,11 +167,11 @@
                                 <h5>Help &amp; Support</h5>
                                 <div class="tiny-border"><span></span></div>
                                 <ul>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Live Chat</a></li>
-                                    <li><a href="#">Terms of Services</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="{{route('site.contact')}}">Help Center</a></li>
+                                    <li><a href="{{route('site.contact')}}">{{__('site.contact')}}</a></li>
+                                    <li><a href="{{route('site.contact')}}">Live Chat</a></li>
+                                    <li><a href="{{route('site.contact')}}">Terms of Services</a></li>
+                                    <li><a href="{{route('site.contact')}}">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
