@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\About;
 use App\Models\Career;
 use App\Models\Comment;
 use App\Models\News;
@@ -48,7 +49,8 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('about');
+        $abouts = About::orderby('id', 'desc')->get();
+        return view('about', compact('abouts'));
     }
 
 
